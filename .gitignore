@@ -1,0 +1,9 @@
+*.log
+*.pdf
+*.png
+!Figures/readme_animation.gif
+!box_200x200.png
+.vscode/
+
+# Large data file — download separately (see README)
+AirView_DublinCity_Measurements_ugm3.csv
