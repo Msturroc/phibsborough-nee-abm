@@ -1,7 +1,5 @@
 # Non-Exhaust Emissions Agent-Based Model
 
-*Marc Sturrock, Royal College of Surgeons in Ireland*
-
 The Phibsborough junction in Dublin is a documented non-exhaust emission hotspot. Street-level measurements from [Google Air View](https://www.google.com/intl/en_ie/about/stories/clean-air/) show ultrafine particle concentrations 70-80% above the Dublin average, largely due to heavy braking at the traffic-light-controlled intersection. With exhaust emissions declining through electrification, brake and tyre wear are becoming the dominant source of traffic-related particulate matter in cities.
 
 This repository contains an agent-based model that simulates the junction at high spatial resolution (200m x 200m grid, adaptive sub-second timestep). Cars, SUVs, electric variants, buses, and microcars navigate the intersection, generating mass-dependent brake and tyre wear emissions that disperse and decay across the grid. A moving observer vehicle samples emissions the same way as the Google Air View car, so simulated and measured distributions can be compared directly.
